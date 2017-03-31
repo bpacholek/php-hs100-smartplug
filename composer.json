@@ -1,0 +1,19 @@
+{
+    "name": "idct/php-hs100-smartplug",
+    "description": "HS100 Smartplug by TP-Link PHP connector",
+    "type": "library",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Bartosz Pacholek",
+            "email": "bartosz@idct.pl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "IDCT\\Hs100Plug\\": "src/"
+        }
+    }
+}
